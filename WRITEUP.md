@@ -1,33 +1,25 @@
-# Smart Recipe Generator - Technical Write-up
+# Technical Approach
 
-## Overview
+🔗 **Live Demo**: [https://recipie-cyan.vercel.app/](https://recipie-cyan.vercel.app/)
 
-The Smart Recipe Generator is a web application that bridges the gap between available ingredients and recipe discovery through AI-powered vision analysis and intelligent matching algorithms. Built with React and Gemini 1.5 Flash, it transforms ingredient photos into actionable recipe recommendations.
+## The Problem
 
-## Technical Approach
+I wanted to build something that solves a real problem I face - figuring out what to cook with whatever's in my fridge. The challenge was making ingredient recognition accurate enough to be useful while keeping the matching algorithm smart enough to handle ingredient variations.
 
-### 1. Vision-to-Text Pipeline
+## How I Built It
 
-The core innovation lies in the image analysis workflow. When users upload a photo, the application converts it to base64 format and sends it to Google's Gemini Vision API with a carefully crafted prompt that requests a comma-separated ingredient list. This structured output format ensures reliable parsing and reduces post-processing complexity.
+**Image Recognition Pipeline**
 
-The prompt engineering was critical: by explicitly requesting "ONLY a comma-separated list," we minimize hallucinations and ensure consistent formatting. Error handling wraps the entire pipeline, providing user-friendly feedback when API calls fail or credentials are missing.
+The image upload flow is pretty straightforward. When someone uploads a photo, I convert it to base64 and send it to Google's Gemini AI with a specific prompt. The trick was getting the prompt right - I ask for "ONLY a comma-separated list" to avoid getting paragraphs of text back. This structured output makes parsing super reliable.
 
-### 2. Scoring Algorithm
+**The Matching Algorithm**
 
-The recipe matching system uses a weighted scoring approach that accounts for both exact and partial ingredient matches. Exact matches (e.g., "tomatoes" === "tomatoes") receive full credit, while partial matches (e.g., "tomato" within "cherry tomatoes") contribute 50% to the score. This nuanced approach handles real-world ingredient variations better than binary matching.
+For recipe matching, I went with a weighted scoring system. Exact ingredient matches count as 1.0, but partial matches (like "tomato" matching "cherry tomatoes") count as 0.5. This handles real-world scenarios where ingredient names vary. The final percentage is just the total score divided by required ingredients, multiplied by 100. Simple but effective.
 
-The final match percentage is calculated as: `(exact_matches + 0.5 × partial_matches) / total_required_ingredients × 100`. Results are sorted by this percentage, surfacing the most achievable recipes first. This scoring logic lives in a pure utility function, making it testable and reusable.
+**User Experience Decisions**
 
-### 3. UX Considerations
+I added two input methods because sometimes you want speed (photo upload) and sometimes you want precision (manual entry). The filters apply instantly without any loading states because everything runs client-side. Recipe cards show the important stuff upfront - match percentage, time, dietary tags - with full instructions tucked behind a collapsible section to avoid overwhelming people.
 
-User experience was prioritized through several design decisions:
+Favorites use localStorage so they persist without needing an account. It's a small detail but removes friction for first-time users.
 
-- **Dual Input Methods**: Users can either upload photos (fast, convenient) or manually type ingredients (precise, reliable). This flexibility accommodates different usage contexts.
-
-- **Real-time Filtering**: Dietary and time filters apply instantly without re-fetching data, providing immediate visual feedback. The filter state is managed separately from ingredient state to prevent unnecessary re-renders.
-
-- **Progressive Disclosure**: Recipe cards show key information (match percentage, cooking time, dietary tags) upfront, with full instructions hidden behind a collapsible details element. This reduces cognitive load while keeping detailed information accessible.
-
-- **Local-First Favorites**: The favorites system uses localStorage for instant persistence without requiring authentication. This reduces friction for first-time users while maintaining a path to cloud sync via Supabase for authenticated users.
-
-The application architecture follows React best practices with custom hooks (`useIngredients`) for state management, keeping components focused on presentation. The modular structure (separate lib/, utils/, components/ directories) ensures maintainability and testability.
+The whole thing is built with React hooks and keeps components focused on rendering while business logic lives in utility functions. Makes it easier to test and modify later.
