@@ -8,9 +8,9 @@ let textModel = null
 
 if (apiKey) {
     genAI = new GoogleGenerativeAI(apiKey)
-    // Using gemini-1.5-flash-latest which supports both vision and text
-    visionModel = genAI.getGenerativeModel({ model: 'gemini-1.5-flash-latest' })
-    textModel = genAI.getGenerativeModel({ model: 'gemini-1.5-flash-latest' })
+    // Using gemini-pro-latest which supports both vision and text
+    visionModel = genAI.getGenerativeModel({ model: 'gemini-pro-latest' })
+    textModel = genAI.getGenerativeModel({ model: 'gemini-pro-latest' })
 }
 
 // Extract ingredients from an image
