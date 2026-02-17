@@ -1,0 +1,729 @@
+[
+    {
+        "id": 1,
+        "name": "Malai Chaap",
+        "cuisine": "North Indian",
+        "cookingTime": 35,
+        "dietary": [
+            "vegetarian"
+        ],
+        "ingredients": [
+            "soya chaap",
+            "cream",
+            "cashew paste",
+            "ginger",
+            "garlic",
+            "green cardamom",
+            "cinnamon",
+            "butter",
+            "kasuri methi"
+        ],
+        "instructions": [
+            "Marinate soya chaap in cream, ginger-garlic paste, and spices for 20 minutes",
+            "Grill or pan-fry the chaap until golden brown",
+            "Prepare gravy with cashew paste, cream, and butter",
+            "Add grilled chaap to the gravy and simmer for 5 minutes",
+            "Garnish with kasuri methi and serve hot"
+        ],
+        "nutrition": {
+            "calories": 420,
+            "protein": 18,
+            "carbs": 28,
+            "fat": 26
+        }
+    },
+    {
+        "id": 2,
+        "name": "Paneer Tikka Masala",
+        "cuisine": "North Indian",
+        "cookingTime": 40,
+        "dietary": [
+            "vegetarian"
+        ],
+        "ingredients": [
+            "paneer",
+            "yogurt",
+            "tomatoes",
+            "onions",
+            "cream",
+            "ginger",
+            "garlic",
+            "garam masala",
+            "kashmiri red chili",
+            "butter"
+        ],
+        "instructions": [
+            "Marinate paneer cubes in yogurt and spices",
+            "Grill paneer until charred",
+            "Make tomato-onion gravy with butter and cream",
+            "Add grilled paneer to gravy",
+            "Simmer and garnish with cream"
+        ],
+        "nutrition": {
+            "calories": 380,
+            "protein": 16,
+            "carbs": 24,
+            "fat": 22
+        }
+    },
+    {
+        "id": 3,
+        "name": "Vegetable Stir-Fry",
+        "cuisine": "Chinese",
+        "cookingTime": 20,
+        "dietary": [
+            "vegetarian",
+            "gluten-free"
+        ],
+        "ingredients": [
+            "bell peppers",
+            "broccoli",
+            "carrots",
+            "soy sauce",
+            "garlic",
+            "ginger",
+            "sesame oil",
+            "spring onions"
+        ],
+        "instructions": [
+            "Heat sesame oil in a wok",
+            "Stir-fry garlic and ginger",
+            "Add vegetables and stir-fry on high heat",
+            "Add soy sauce and toss well",
+            "Garnish with spring onions"
+        ],
+        "nutrition": {
+            "calories": 180,
+            "protein": 6,
+            "carbs": 22,
+            "fat": 8
+        }
+    },
+    {
+        "id": 4,
+        "name": "Chicken Fried Rice",
+        "cuisine": "Chinese",
+        "cookingTime": 25,
+        "dietary": [],
+        "ingredients": [
+            "rice",
+            "chicken breast",
+            "eggs",
+            "soy sauce",
+            "garlic",
+            "ginger",
+            "spring onions",
+            "carrots",
+            "peas",
+            "sesame oil"
+        ],
+        "instructions": [
+            "Cook rice and let it cool",
+            "Stir-fry diced chicken until cooked",
+            "Push chicken aside, scramble eggs",
+            "Add vegetables and rice",
+            "Season with soy sauce and sesame oil"
+        ],
+        "nutrition": {
+            "calories": 450,
+            "protein": 28,
+            "carbs": 58,
+            "fat": 12
+        }
+    },
+    {
+        "id": 5,
+        "name": "Dal Makhani",
+        "cuisine": "North Indian",
+        "cookingTime": 60,
+        "dietary": [
+            "vegetarian"
+        ],
+        "ingredients": [
+            "black lentils",
+            "kidney beans",
+            "butter",
+            "cream",
+            "tomatoes",
+            "ginger",
+            "garlic",
+            "cumin",
+            "garam masala"
+        ],
+        "instructions": [
+            "Soak lentils and beans overnight",
+            "Pressure cook until soft",
+            "Prepare tomato-based gravy with butter",
+            "Add cooked lentils and simmer for 30 minutes",
+            "Finish with cream and butter"
+        ],
+        "nutrition": {
+            "calories": 520,
+            "protein": 22,
+            "carbs": 48,
+            "fat": 28
+        }
+    },
+    {
+        "id": 6,
+        "name": "Hakka Noodles",
+        "cuisine": "Chinese",
+        "cookingTime": 20,
+        "dietary": [
+            "vegetarian"
+        ],
+        "ingredients": [
+            "noodles",
+            "cabbage",
+            "carrots",
+            "bell peppers",
+            "soy sauce",
+            "vinegar",
+            "garlic",
+            "spring onions",
+            "chili sauce"
+        ],
+        "instructions": [
+            "Boil noodles and drain",
+            "Stir-fry vegetables in hot oil",
+            "Add noodles and sauces",
+            "Toss on high heat",
+            "Garnish with spring onions"
+        ],
+        "nutrition": {
+            "calories": 380,
+            "protein": 12,
+            "carbs": 62,
+            "fat": 10
+        }
+    },
+    {
+        "id": 7,
+        "name": "Butter Chicken",
+        "cuisine": "North Indian",
+        "cookingTime": 45,
+        "dietary": [],
+        "ingredients": [
+            "chicken",
+            "yogurt",
+            "butter",
+            "cream",
+            "tomatoes",
+            "cashew paste",
+            "ginger",
+            "garlic",
+            "kashmiri red chili",
+            "garam masala",
+            "kasuri methi"
+        ],
+        "instructions": [
+            "Marinate chicken in yogurt and spices",
+            "Grill chicken until charred",
+            "Make rich tomato-cashew gravy",
+            "Add grilled chicken and simmer",
+            "Finish with butter and cream"
+        ],
+        "nutrition": {
+            "calories": 480,
+            "protein": 32,
+            "carbs": 18,
+            "fat": 32
+        }
+    },
+    {
+        "id": 8,
+        "name": "Manchurian",
+        "cuisine": "Chinese",
+        "cookingTime": 30,
+        "dietary": [
+            "vegetarian"
+        ],
+        "ingredients": [
+            "cabbage",
+            "carrots",
+            "cornflour",
+            "soy sauce",
+            "vinegar",
+            "garlic",
+            "ginger",
+            "spring onions",
+            "chili sauce",
+            "tomato ketchup"
+        ],
+        "instructions": [
+            "Make vegetable balls with grated cabbage and carrots",
+            "Deep fry until golden",
+            "Prepare sauce with soy sauce, vinegar, and ketchup",
+            "Toss fried balls in sauce",
+            "Garnish with spring onions"
+        ],
+        "nutrition": {
+            "calories": 320,
+            "protein": 8,
+            "carbs": 42,
+            "fat": 14
+        }
+    },
+    {
+        "id": 9,
+        "name": "Chole Bhature",
+        "cuisine": "North Indian",
+        "cookingTime": 50,
+        "dietary": [
+            "vegetarian"
+        ],
+        "ingredients": [
+            "chickpeas",
+            "flour",
+            "yogurt",
+            "tomatoes",
+            "onions",
+            "ginger",
+            "garlic",
+            "chole masala",
+            "amchur",
+            "oil"
+        ],
+        "instructions": [
+            "Soak chickpeas overnight and pressure cook",
+            "Make spicy chickpea curry",
+            "Prepare bhature dough with flour and yogurt",
+            "Deep fry bhature until puffed",
+            "Serve hot with chole"
+        ],
+        "nutrition": {
+            "calories": 540,
+            "protein": 18,
+            "carbs": 68,
+            "fat": 20
+        }
+    },
+    {
+        "id": 10,
+        "name": "Sweet and Sour Chicken",
+        "cuisine": "Chinese",
+        "cookingTime": 30,
+        "dietary": [],
+        "ingredients": [
+            "chicken breast",
+            "bell peppers",
+            "pineapple",
+            "tomato ketchup",
+            "vinegar",
+            "sugar",
+            "soy sauce",
+            "cornflour",
+            "garlic"
+        ],
+        "instructions": [
+            "Coat chicken in cornflour and fry",
+            "Stir-fry bell peppers and pineapple",
+            "Make sweet and sour sauce",
+            "Toss chicken and vegetables in sauce",
+            "Serve hot"
+        ],
+        "nutrition": {
+            "calories": 420,
+            "protein": 26,
+            "carbs": 38,
+            "fat": 18
+        }
+    },
+    {
+        "id": 11,
+        "name": "Rajma Chawal",
+        "cuisine": "North Indian",
+        "cookingTime": 45,
+        "dietary": [
+            "vegetarian",
+            "gluten-free"
+        ],
+        "ingredients": [
+            "kidney beans",
+            "rice",
+            "tomatoes",
+            "onions",
+            "ginger",
+            "garlic",
+            "cumin",
+            "coriander powder",
+            "garam masala"
+        ],
+        "instructions": [
+            "Soak kidney beans overnight",
+            "Pressure cook beans until soft",
+            "Make tomato-onion gravy",
+            "Add beans and simmer",
+            "Serve with steamed rice"
+        ],
+        "nutrition": {
+            "calories": 460,
+            "protein": 20,
+            "carbs": 64,
+            "fat": 12
+        }
+    },
+    {
+        "id": 12,
+        "name": "Spring Rolls",
+        "cuisine": "Chinese",
+        "cookingTime": 35,
+        "dietary": [
+            "vegetarian"
+        ],
+        "ingredients": [
+            "spring roll wrappers",
+            "cabbage",
+            "carrots",
+            "noodles",
+            "soy sauce",
+            "garlic",
+            "ginger",
+            "cornflour",
+            "oil"
+        ],
+        "instructions": [
+            "Prepare vegetable filling with cabbage and carrots",
+            "Add cooked noodles to filling",
+            "Wrap in spring roll sheets",
+            "Deep fry until golden and crispy",
+            "Serve with chili sauce"
+        ],
+        "nutrition": {
+            "calories": 280,
+            "protein": 8,
+            "carbs": 36,
+            "fat": 12
+        }
+    },
+    {
+        "id": 13,
+        "name": "Aloo Gobi",
+        "cuisine": "North Indian",
+        "cookingTime": 30,
+        "dietary": [
+            "vegetarian",
+            "gluten-free"
+        ],
+        "ingredients": [
+            "potatoes",
+            "cauliflower",
+            "tomatoes",
+            "onions",
+            "ginger",
+            "turmeric",
+            "cumin",
+            "coriander powder",
+            "garam masala"
+        ],
+        "instructions": [
+            "Cut potatoes and cauliflower into florets",
+            "Sauté onions and tomatoes",
+            "Add vegetables and spices",
+            "Cook covered until tender",
+            "Garnish with coriander"
+        ],
+        "nutrition": {
+            "calories": 240,
+            "protein": 8,
+            "carbs": 32,
+            "fat": 10
+        }
+    },
+    {
+        "id": 14,
+        "name": "Schezwan Fried Rice",
+        "cuisine": "Chinese",
+        "cookingTime": 25,
+        "dietary": [
+            "vegetarian"
+        ],
+        "ingredients": [
+            "rice",
+            "bell peppers",
+            "carrots",
+            "cabbage",
+            "schezwan sauce",
+            "soy sauce",
+            "garlic",
+            "ginger",
+            "spring onions"
+        ],
+        "instructions": [
+            "Cook rice and let it cool",
+            "Stir-fry vegetables on high heat",
+            "Add rice and schezwan sauce",
+            "Toss well and season",
+            "Garnish with spring onions"
+        ],
+        "nutrition": {
+            "calories": 420,
+            "protein": 10,
+            "carbs": 64,
+            "fat": 14
+        }
+    },
+    {
+        "id": 15,
+        "name": "Palak Paneer",
+        "cuisine": "North Indian",
+        "cookingTime": 35,
+        "dietary": [
+            "vegetarian",
+            "gluten-free"
+        ],
+        "ingredients": [
+            "spinach",
+            "paneer",
+            "cream",
+            "onions",
+            "tomatoes",
+            "ginger",
+            "garlic",
+            "cumin",
+            "garam masala"
+        ],
+        "instructions": [
+            "Blanch spinach and make puree",
+            "Sauté paneer cubes until golden",
+            "Make onion-tomato base",
+            "Add spinach puree and cream",
+            "Add paneer and simmer"
+        ],
+        "nutrition": {
+            "calories": 280,
+            "protein": 14,
+            "carbs": 18,
+            "fat": 16
+        }
+    },
+    {
+        "id": 16,
+        "name": "Chili Chicken",
+        "cuisine": "Chinese",
+        "cookingTime": 30,
+        "dietary": [],
+        "ingredients": [
+            "chicken",
+            "bell peppers",
+            "onions",
+            "soy sauce",
+            "chili sauce",
+            "vinegar",
+            "garlic",
+            "ginger",
+            "cornflour",
+            "spring onions"
+        ],
+        "instructions": [
+            "Marinate chicken in soy sauce and cornflour",
+            "Deep fry chicken until crispy",
+            "Stir-fry bell peppers and onions",
+            "Make spicy sauce and toss chicken",
+            "Garnish with spring onions"
+        ],
+        "nutrition": {
+            "calories": 380,
+            "protein": 24,
+            "carbs": 28,
+            "fat": 18
+        }
+    },
+    {
+        "id": 17,
+        "name": "Biryani",
+        "cuisine": "North Indian",
+        "cookingTime": 60,
+        "dietary": [],
+        "ingredients": [
+            "basmati rice",
+            "chicken",
+            "yogurt",
+            "onions",
+            "tomatoes",
+            "ginger",
+            "garlic",
+            "biryani masala",
+            "saffron",
+            "mint",
+            "ghee"
+        ],
+        "instructions": [
+            "Marinate chicken in yogurt and spices",
+            "Parboil rice with whole spices",
+            "Layer rice and chicken",
+            "Cook on dum (slow steam) for 20 minutes",
+            "Serve with raita"
+        ],
+        "nutrition": {
+            "calories": 580,
+            "protein": 28,
+            "carbs": 72,
+            "fat": 16
+        }
+    },
+    {
+        "id": 18,
+        "name": "Momos",
+        "cuisine": "Chinese",
+        "cookingTime": 40,
+        "dietary": [
+            "vegetarian"
+        ],
+        "ingredients": [
+            "flour",
+            "cabbage",
+            "carrots",
+            "onions",
+            "garlic",
+            "ginger",
+            "soy sauce",
+            "sesame oil"
+        ],
+        "instructions": [
+            "Make dough with flour and water",
+            "Prepare vegetable filling",
+            "Shape momos and seal edges",
+            "Steam for 15 minutes",
+            "Serve with spicy chutney"
+        ],
+        "nutrition": {
+            "calories": 260,
+            "protein": 10,
+            "carbs": 38,
+            "fat": 8
+        }
+    },
+    {
+        "id": 19,
+        "name": "Kadai Paneer",
+        "cuisine": "North Indian",
+        "cookingTime": 30,
+        "dietary": [
+            "vegetarian"
+        ],
+        "ingredients": [
+            "paneer",
+            "bell peppers",
+            "tomatoes",
+            "onions",
+            "ginger",
+            "garlic",
+            "coriander seeds",
+            "dried red chilies",
+            "kasuri methi"
+        ],
+        "instructions": [
+            "Roast and crush coriander seeds and chilies",
+            "Sauté bell peppers and onions",
+            "Add tomato puree and spices",
+            "Add paneer cubes",
+            "Garnish with kasuri methi"
+        ],
+        "nutrition": {
+            "calories": 340,
+            "protein": 18,
+            "carbs": 22,
+            "fat": 18
+        }
+    },
+    {
+        "id": 20,
+        "name": "Hot and Sour Soup",
+        "cuisine": "Chinese",
+        "cookingTime": 20,
+        "dietary": [
+            "vegetarian"
+        ],
+        "ingredients": [
+            "mushrooms",
+            "carrots",
+            "cabbage",
+            "tofu",
+            "soy sauce",
+            "vinegar",
+            "chili sauce",
+            "cornflour",
+            "garlic",
+            "ginger"
+        ],
+        "instructions": [
+            "Boil vegetables in water",
+            "Add soy sauce and vinegar",
+            "Thicken with cornflour slurry",
+            "Add chili sauce for heat",
+            "Garnish with spring onions"
+        ],
+        "nutrition": {
+            "calories": 150,
+            "protein": 8,
+            "carbs": 18,
+            "fat": 6
+        }
+    },
+    {
+        "id": 21,
+        "name": "Aloo Paratha",
+        "cuisine": "North Indian",
+        "cookingTime": 30,
+        "dietary": [
+            "vegetarian"
+        ],
+        "ingredients": [
+            "wheat flour",
+            "potatoes",
+            "onions",
+            "green chilies",
+            "coriander",
+            "cumin",
+            "garam masala",
+            "ghee"
+        ],
+        "instructions": [
+            "Make dough with wheat flour",
+            "Prepare spiced potato filling",
+            "Roll out parathas with filling inside",
+            "Cook on tawa with ghee",
+            "Serve with yogurt and pickle"
+        ],
+        "nutrition": {
+            "calories": 320,
+            "protein": 12,
+            "carbs": 42,
+            "fat": 12
+        }
+    },
+    {
+        "id": 22,
+        "name": "Chow Mein",
+        "cuisine": "Chinese",
+        "cookingTime": 25,
+        "dietary": [
+            "vegetarian"
+        ],
+        "ingredients": [
+            "noodles",
+            "cabbage",
+            "carrots",
+            "bell peppers",
+            "soy sauce",
+            "oyster sauce",
+            "garlic",
+            "ginger",
+            "spring onions"
+        ],
+        "instructions": [
+            "Boil noodles until al dente",
+            "Stir-fry vegetables on high heat",
+            "Add noodles and sauces",
+            "Toss everything together",
+            "Serve hot with chili oil"
+        ],
+        "nutrition": {
+            "calories": 380,
+            "protein": 12,
+            "carbs": 58,
+            "fat": 12
+        }
+    }
+]
