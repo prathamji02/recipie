@@ -8,8 +8,8 @@ let textModel = null
 
 if (apiKey) {
     genAI = new GoogleGenerativeAI(apiKey)
-    visionModel = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' })
-    textModel = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' })
+    visionModel = genAI.getGenerativeModel({ model: 'gemini-pro-vision' })
+    textModel = genAI.getGenerativeModel({ model: 'gemini-pro' })
 }
 
 // Extract ingredients from an image
